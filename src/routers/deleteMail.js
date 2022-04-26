@@ -26,7 +26,7 @@ const deleteMail = (name, email) => {
         <br>
         
         <p>For any further queries, you can contact us via:<br>
-        Email: neophytesAdm@gmail.com<br>
+        Email: pupilshub363@gmail.com<br>
         Phone: 9876543210<br>
         Whatsapp: 9876543210
         </p>`
