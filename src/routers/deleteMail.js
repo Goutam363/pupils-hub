@@ -11,7 +11,7 @@ var transporter = nodemailer.createTransport({
 const deleteMail = (name, email) => {
 
     var mailOptions = {
-        from: 'Pupils\' Hub <neophytesAdm@gmail.com>',
+        from: 'Pupils\' Hub <pupilshub363@gmail.com>',
         to: `${email}`,
         subject: `APPLICATION REJECTED`,
         html: `<div>

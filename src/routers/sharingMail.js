@@ -11,7 +11,7 @@ var transporter = nodemailer.createTransport({
 const sharingsendMail = (name, email) => {
 
     var mailOptions = {
-        from: 'Pupils\' Hub <neophytesAdm@gmail.com>',
+        from: 'Pupils\' Hub <pupilshub363@gmail.com>',
         to: `${email}`,
         subject: `NOTICE FOR ADVANCED PAYMENT`,
         html: `<div>
@@ -28,7 +28,7 @@ const sharingsendMail = (name, email) => {
         <br>
         
         <p>For any further queries, you can contact us via:<br>
-        Email: neophytesAdm@gmail.com<br>
+        Email: pupilshub363@gmail.com<br>
         Phone: 9876543210<br>
         Whatsapp: 9876543210
         </p>`

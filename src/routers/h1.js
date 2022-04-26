@@ -11,7 +11,7 @@ var transporter = nodemailer.createTransport({
 const h1SendMail = (name, email) => {
 
     var mailOptions = {
-        from: 'Pupils\' Hub <neophytesAdm@gmail.com>',
+        from: 'Pupils\' Hub <pupilshub363@gmail.com>',
         to: `${email}`,
         subject: `HURRAY !! Hostel Allocated`,
         html: `<div>
@@ -26,7 +26,7 @@ const h1SendMail = (name, email) => {
         <br>
         
         <p>For any further queries, you can contact us via:<br>
-        Email: neophytesAdm@gmail.com<br>
+        Email: pupilshub363@gmail.com<br>
         Phone: 9876543210<br>
         Whatsapp: 9876543210
         </p>`
